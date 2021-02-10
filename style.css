@@ -6,11 +6,6 @@ body
 	color: black;	
 }
 
-h2
-{
-	color: black;
-}
-
 /*Nieodwiedzony link*/
 a:link
 {
@@ -26,5 +21,40 @@ a:visited
 /*Link po najechaniu kursorem*/
 a:hover
 {
-	color: blue;
+	color: mediumblue;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo
+{
+	color: white;
+	background-color: black;
+	text-align: center;
+	padding: 15px;
+}
+
+#nav
+{
+	float: left;
+}
+
+#content
+{
+	float: left;
+}
+
+#ad
+{
+	float: left;
+}
+
+#footer
+{
+	clear: both;
 }
