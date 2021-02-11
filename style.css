@@ -26,7 +26,7 @@ a:hover
 
 #container
 {
-	width: 1000px;
+	width: 1450px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -42,19 +42,35 @@ a:hover
 #nav
 {
 	float: left;
+	width: 180px;
+	height: 2080px;
+	padding-top: 50px;
+	text-align: center;
+	background-color: dodgerblue;
 }
 
 #content
 {
 	float: left;
+	width: 1050px; 
+	height: 2080px;
+	padding-left: 40px;
+	padding-top: 40px;
+	background-color: steelblue;
 }
 
 #ad
 {
 	float: left;
+	width: 180px;
+	height: 2080px;
+	background-color: dodgerblue;
 }
 
 #footer
 {
 	clear: both;
+	text-align: center;
+	padding: 15px;
+	background-color: darkblue;
 }
