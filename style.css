@@ -6,6 +6,13 @@ body
 	color: black;	
 }
 
+.bigtitle
+{
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
 /*Nieodwiedzony link*/
 a:link
 {
@@ -123,9 +130,9 @@ a:hover
 	color: black;
 }
 
-.movie
+.movieDescription
 {
-	margin-top: 5px;
+	margin-top: 20px;
 	margin-left: 20px;
 	width: 700px;
 	height: 600px;
