@@ -1,7 +1,7 @@
 body
 {
-	background-color: gray;
-	font-family: Verdana;
+	background-color: white;
+	font-family: 'Lato', serif;
 	font-size: 20px;	
 	color: black;	
 }
@@ -26,9 +26,8 @@ a:hover
 
 #container
 {
-	width: 1450px;
-	margin-left: auto;
-	margin-right: auto;
+	width: 1460px;
+	
 }
 
 #logo
@@ -36,8 +35,62 @@ a:hover
 	color: white;
 	background-color: black;
 	text-align: center;
+	letter-spacing: 7px;
 	padding: 15px;
+	font-size: 24px;
 }
+
+#menu
+{
+	width: 1450;
+	height: 50;
+	text-align: center;
+	background-color: #9B9B9B;
+	padding: 30px;
+}
+
+.options
+{
+	margin-left: 240px;
+}
+
+.option
+{
+	float: left;
+	margin-left: 25px;
+	margin-right:25px; 
+	min-width: 50px;
+	height: 25px;
+	font-size: 20px;
+	padding:10px;
+	border-right: 2px solid #444444;
+	border-collapse: separate;
+  	border-spacing: 15px;
+}
+
+.option:hover
+{
+	
+	background-color: #888888;
+	cursor: pointer;
+}
+
+.optionL
+{
+	font-size: 18px;
+	height: 25px;
+	padding: 10px;
+	border-bottom: 2px dotted #444444;
+}
+
+.optionL:hover
+{
+	background-color: #43464B;
+	color: white;
+	cursor: pointer;
+}
+
+
 
 #nav
 {
@@ -46,25 +99,46 @@ a:hover
 	height: 2080px;
 	padding-top: 50px;
 	text-align: center;
-	background-color: dodgerblue;
+	background-color: #9B9B9B;
+	color:black;
 }
 
 #content
 {
 	float: left;
-	width: 1050px; 
-	height: 2080px;
-	padding-left: 40px;
-	padding-top: 40px;
-	background-color: steelblue;
+	width: 350px; 
+	height: 2090px;
+	padding-left: 20px;	 
+	margin-top: 20px;		
+	background-color: white;
 }
+
+#descriptions
+{
+	float: left;
+	width: 730px;
+	height: 2090px;
+	margin-top: 80px;
+	background-color: white;
+	color: black;
+}
+
+.movie
+{
+	margin-top: 5px;
+	margin-left: 20px;
+	width: 700px;
+	height: 600px;
+	color: black;
+}
+
 
 #ad
 {
 	float: left;
 	width: 180px;
-	height: 2080px;
-	background-color: dodgerblue;
+	height: 2130px;
+	
 }
 
 #footer
@@ -72,5 +146,7 @@ a:hover
 	clear: both;
 	text-align: center;
 	padding: 15px;
-	background-color: darkblue;
+	background-color: #292828;
+	color: white;
+	letter-spacing: 1px;
 }
