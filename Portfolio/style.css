@@ -34,7 +34,7 @@ body
 	width: 600px;
 	text-align: left;
 }
-
+	
 #zegar
 {
 	float: left;
@@ -55,7 +55,7 @@ body
 
 .tile1:hover
 {
-	background: #2084c2;
+	background-color: #2084c2;
 }
 
 .tile2
@@ -70,7 +70,7 @@ body
 
 .tile2:hover
 {
-	background: #707070;
+	background-color: #707070;
 }
 
 .tile3
@@ -85,7 +85,7 @@ body
 
 .tile3:hover
 {
-	background: #82b637;
+	background-color: #82b637;
 }
 
 
