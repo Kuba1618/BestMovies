@@ -140,7 +140,7 @@ body
 	background-color: #3557a2;
 }
 
-.gplus
+.pinterest
 {
 	float: left;
 	margin: 10px;
@@ -149,7 +149,7 @@ body
 	background-color: #c84222;
 }
 
-.gplus:hover
+.pinterest:hover
 {
 	background-color: #b73111;
 }
@@ -166,4 +166,28 @@ body
 .in:hover
 {
 	background-color: #0D80EE;
+}
+
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 230px;
+	height: 142px;
+}
+
+a.tilelinkhtml5
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.sociallink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 105px;
+	height: 142px;
 }
