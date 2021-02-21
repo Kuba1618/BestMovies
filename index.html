@@ -21,15 +21,15 @@
 		</div>
 
 
-		<div id="menu">
-			<div class="options">
-				<div class="option"> Strona główna    </div>
-				<div class="option"> Filmy w liczbach </div>
-				<div class="option"> Dodaj propozycję </div>
-				<div class="option">     O mnie       </div>
-				<div class="option">     Kontakt      </div>
-				<div style="clear: both;"></div>       	
-			</div>
+		<div class="menu">
+			<ol> 
+				<li> <a href="#"> Strona główna </a></li>
+				<li> <a href="#"> Filmy w liczbach </a></li>
+				<li> <a href="#"> Dodaj propozycję </a></li>
+				<li> <a href="#"> O mnie </a></li>
+				<li> <a href="#"> Kontakt </a></li>
+				
+			</ol>
 		</div>
 
 		
@@ -106,15 +106,15 @@
 	<script>
 
 	$(document).ready(function() {
-	var NavY = $('#menu').offset().top;
+	var NavY = $('.menu').offset().top;
 	 
 	var stickyNav = function(){
 	var ScrollY = $(window).scrollTop();
 		  
 	if (ScrollY > NavY) { 
-		$('#menu').addClass('sticky');
+		$('.menu').addClass('sticky');
 	} else {
-		$('#menu').removeClass('sticky'); 
+		$('.menu').removeClass('sticky'); 
 	}
 	};
 	 

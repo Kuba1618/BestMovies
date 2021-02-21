@@ -50,13 +50,14 @@ a:hover
 	margin-right: auto;
 }
 
-#menu
+.menu
 {
 	width: 100%;
-	height: 50;
+	padding: 10px;
+	background-color: #8A8A8A;/*#8A8A8A*/
 	text-align: center;
-	background-color: #9B9B9B;
-	
+	border-top: 1px solid #2F4F4F;
+	border-bottom: 1px solid #2F4F4F; 	
 }
 
 .options
@@ -110,13 +111,13 @@ a:hover
 	padding-top: 50px;
 	text-align: center;
 	background-color: #9B9B9B;
-	color:black;
+	color: black;
 }
 
 #content
 {
 	float: left;
-	width: 350px; 
+	width: 370px; 
 	height: 2090px;
 	padding-left: 20px;	 
 	margin-top: 20px;		
@@ -169,4 +170,31 @@ a:hover
 	left: 0;
 	top: 0;
 	z-index: 100;
+}
+
+ol 
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #F2F2F2 !important; /*#00008B */
+	text-decoration: none;
+	display: block;
+}
+
+ol > li 
+{
+	float: left;
+	width: 180px;
+	height: 40px;
+	text-align: center;
+	border-right: 1px dashed #2F4F4F;
 }
