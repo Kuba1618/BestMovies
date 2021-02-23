@@ -1,6 +1,8 @@
 body
 {
-	background-color: #F0F0F0;
+	/*Background pattern from subtlepatterns.com*/
+	background-image: url("images/tlo.png");
+	/*background-color: #EEEEEE;*/
 	font-family: 'Lato', serif;
 	font-size: 20px;	
 	color: black;	
@@ -54,7 +56,8 @@ a:hover
 .menu
 {
 	width: 100%;
-	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	background-color: #9B9B9B;/* #9B9B9B   #8A8A8A*/
 	text-align: center;
 	border-top: 1px solid #2F4F4F;
