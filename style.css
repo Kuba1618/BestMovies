@@ -58,7 +58,7 @@ a:hover
 	width: 100%;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	background-color: #9B9B9B;/* #9B9B9B   #8A8A8A*/
+	background-color: #9B9B9B;  /* #8A8A8A*/
 	text-align: center;
 	border-top: 1px solid #2F4F4F;
 	border-bottom: 1px solid #2F4F4F; 	
@@ -247,5 +247,7 @@ ol > li > ul > li:hover
 ol > li > ul > li:hover > a
 {
 	background-color: #8A8A8A;
-}	
+}
+
+
 
