@@ -1,106 +1,9 @@
-<!DOCTYPE html>
-<html lang="pl">
 
-<head>
-	<meta charset="utf-8">
-	<title> Monitory komputerowe </title>
-	<meta name="description" content="Zobacz wszystko co powienieneś wiedzieć o monitorach komputerowych  wtechnikum informatycznym." />
-	<meta name="keywords"  content="budowa,zasada działania,CRT, LCD,złącza ,wady, zalety,parametry monitorów,oznaczenia, maski rodzaje matryc: TN,PVA, MVA, IPS, wymiar przekątnej, rozdzielczość, wielkość plamki,wielkość piksela,jasność kontrast, bad pixel, PDP, OLED, VGA, DSUB"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	
-	<link href="style.css" type="text/css" rel="stylesheet" />
-	
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	
-	<script src="jquery.scrollTo.min.js"> </script>
-	
-	<script> 
-		jQuery(function($)
-		{
-			//zresetuj scrolla
-			$.scrollTo(0);
-	
-			$('#link1').click(function() { $.scrollTo($('#monitor'), 500); });
-			$('#link2').click(function() { $.scrollTo($('#dzialanie'), 500); });
-			$('#link3').click(function() { $.scrollTo($('#maskicrt'), 500); });
-			$('#link4 ').click(function() { $.scrollTo($('#advantages'), 500); });
-			$('#link5').click(function() { $.scrollTo($('#parametry'), 500); });
-			$('#link6').click(function() { $.scrollTo($('#bodowaLCD'), 500); });
-			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
-		}
-		);
-		
-		//pokaż podczas przewijania
-		$(window).scroll(function()
-		{
-			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
-			else $('.scrollup').fadeOut();
-		}
-		);
-		
-		
-		
-		
-	</script>
-	
-</head>
-
-
-<body>
-	
-	<div id="logo">Wykład #1: Monitory komputerowe</div>
-	
-	<div id="container">
-		
-		<a href="#" class="scrollup"> </a>
-		
-		<div id="spis"> 
-			
-			<ol>
-				<li>Monitory kineskopowe CRT
-					<ul>
-						<li><a id="link1" href="#">Budowa monitora</a></li>
-						<li><a id="link2" href="#">Zasada działania</a></li>
-						<li><a id="link3" href="#">Maska.Rodzaje masek</a></li>
-						<li><a id="link4" href="#">Wady i zalety</a></li>
-						<li><a id="link5" href="#">Dobór parametrów</a></li>
-					</ul>
-				</li>
-				<li>Monitory ciekłokrystaliczne LCD
-					<ul>
-						<li><a id="link6" href="#">Budowa monitora</a></li>
-						<li>Zasada działania</li>
-						<li>Podział matryc</li>
-						<li>Wady i zalety</li>
-						<li>Dobór parametrów</li>						
-					</ul>
-				</li>
-				<li>Sposoby podłączenia monitorów
-					<ul>
-						<li>DSUB</li>
-						<li>DVI</li>
-						<li>HDMI, Display Port</li>
-					</ul>
-				</li>
-				<li>Dodatkowe informacje
-					<ul>
-						<li>Przyszłośc monitorów i wyświetlaczy?</li>
-						<li>Wykorzystane źródła</li>
-					</ul>
-				</li>
-			</ol>
-			
-		</div>
-
-		
 		<!-- ######################## SLAJD 1.1 ######################## -->
 		
 		<div class="slajd">
 		
-			<h1 id="monitor">Budowa monitora CRT</h1>
+			<h1>Budowa monitora CRT</h1>
 			
 			CRT to akronim od <strong>Cathode-Ray Tube</strong>, czyli lampy kineskopowej wyposażonej w działo elektronowe. W języku polskim pod tym słowem przyjęto potoczną nazwę skrótową, synonim dla wyrażenia monitor CRT – czyli oznaczenie modeli monitorów komputerowych, których wyświetlacz oparty jest na lampie obrazowej zwanej kineskopem. Właściwe określenie to monitor kineskopowy.
 			<br /><br />
@@ -125,7 +28,7 @@
 		
 		<div class="slajd">
 		
-			<h1 id="dzialanie">Zasada działania monitora CRT</h1>
+			<h1>Zasada działania monitora CRT</h1>
 			
 			Zasada tworzenia obrazu w kolorowym monitorze CRT polega na wysyłaniu w kierunku przedniej szyby powleczonej warstwą luminoforu, <strong>trzech wiązek elektronów</strong> (po jednej dla każdego składowego koloru RGB) za pomocą trzech dział elektronowych umieszczonych w tylnej części próżniowej tuby kineskopu. Wiązki te są kierowane za pomocą silnego pola magnetycznego (<strong>cewki odchylające</strong>) tak, aby trafiały w odpowiedni obszar na luminoforze.
 			<br /><br />
@@ -156,7 +59,7 @@
 		
 		<div class="slajd">
 		
-			<h1 id="maskicrt">Rodzaje masek w monitorach CRT</h1>
+			<h1>Rodzaje masek w monitorach CRT</h1>
 			
 			Przed warstwą luminoforu znajduje się tzw. <strong>maska</strong> (ang. shadow mask), która pełni funkcję filtru dbającego o to, aby elektrony uderzały idealnie w powierzchnię wyznaczonych pól luminoforu (subpikseli) - co pozytywnie wpływa na jakość obrazu.
 			<br /><br />
@@ -208,7 +111,7 @@
 		
 		<div class="slajd">
 		
-			<h1 id="advantages">Wady i zalety monitorów CRT</h1>
+			<h1>Wady i zalety monitorów CRT</h1>
 			
 			Wybór rodzaju monitora zależy najbardziej od jego przeznaczenia. Monitory CRT zostały praktycznie całkowicie wyparte z rynku przez monitory ciekłokrystaliczne, niemniej jednak niektóre ich unikatowe właściwości sprawiają, iż nadal używają ich np. fotografowie.
 			<br /><br />
@@ -235,7 +138,7 @@
 		
 		<div class="slajd">
 		
-			<h1 id="parametry">Dobór parametrów monitora CRT</h1>
+			<h1>Dobór parametrów monitora CRT</h1>
 			
 			W monitorach CRT rzeczywista powierzchnia robocza ekranu jest nieco mniejsza niż deklaruje producent, a to z powodu <strong>wypukłości ekranu</strong>, które zawsze występują w monitorze kineskopowym. Nawet w najnowszych modelach mających prawie płaskie ekrany (FST - Flat Square Tube) występują niewielkie wypukłości poziome.
 			<br /><br />
@@ -290,10 +193,10 @@
 		
 		<div class="slajd">
 		
-			<h1 id="bodowaLCD">Budowa monitora LCD</h1>
+			<h1>Budowa monitora LCD</h1>
 			
 			LCD to akronim od Liquid Crystal Display - wyświetlacz ciekłokrystaliczny to urządzenie, którego zasada działania oparta jest na zmianie polaryzacji światła na skutek zmian orientacji cząsteczek ciekłego kryształu pod wpływem przyłożonego pola elektrycznego.
-			<br/> <br/>
+			<br /><br />
 			
 			<div style="float:left; width:500px; text-align: center;">
 				<img src="img/budowa-lcd.png" alt="lcd" />
@@ -622,13 +525,6 @@
 				<li>Urządzenia techniki komputerowej. Podręcznik do nauki zawodu technik informatyk. Helion. Tomasz Kowalski</li>
 				<li>Urządzenia techniki komputerowej. WSIP. Tomasz Marciniuk</li>
 				<li>http://www.neurosoft.edu.pl/zgomolka/CRT_LCD.pdf</li>
-				<li>Wikipedia.pl</li> 
+				<li>Wikipedia.pl</li>
 			</ul>
 		</div>
-	
-	</div>
-
-	
-</body>
-
-</html>  
