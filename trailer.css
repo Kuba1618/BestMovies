@@ -3,6 +3,7 @@ body
 	/*Background pattern from subtlepatterns.com*/
 	/*background-image: url("images/tlo.png");*/
 	background-color: rgba(110, 108, 108, 0.192);
+	/*background-color: #EEEEEE;*/
 	font-family: 'Lato', serif;
 	font-size: 20px;	
 	color: black;	
@@ -111,20 +112,20 @@ a:hover
 {
 	padding-left: 25px;
 	float: left;
-	width: 1096px;
+	width: 1230px;
 }
 
-.actor{
-	height: 350px;
-	width: 1000px;
-	margin-top: 40px;
+.film{
+	height: 425px;
+	width: 1250px;
+	margin-top: 50px;
 	margin-bottom: 60px;
 }
 
 .photo{
 	float: left;
-	width: 220px;
-	height: 300px;
+	width: 270px;
+	height: 450px;
 	margin-right: 20px;
 	padding-left: 30px;
 }
@@ -136,7 +137,7 @@ a:hover
 .name-photo{
 	margin-top: 10px;
 	text-align: center;
-	font-size: 16px;
+	font-size: 22px;
 	font-weight: 700;
 	letter-spacing: 2px;
 }
@@ -144,11 +145,11 @@ a:hover
 .description
 {
 	float: left;
-	width: 700px;
+	width: 900px;
 	height: 300px;
 	padding-top: 40px;
-	padding-left: 25px;
-	line-height: 1.65;
+	padding-left: 5px;
+	line-height: 1.7;
 }
 
 
@@ -251,4 +252,10 @@ ol > li > ul > li:hover
 ol > li > ul > li:hover > a
 {
 	background-color: #8A8A8A;
+}
+
+.trailer{
+    float:left;
+    margin-top: 25px;
+    margin-left: 30px;
 }
