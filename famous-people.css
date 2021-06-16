@@ -1,8 +1,8 @@
 body
 {
 	/*Background pattern from subtlepatterns.com*/
-	background-image: url("images/tlo.png");
-	/*background-color: #EEEEEE;*/
+	/*background-image: url("images/tlo.png");*/
+	background-color: rgba(110, 108, 108, 0.192);
 	font-family: 'Lato', serif;
 	font-size: 20px;	
 	color: black;	
@@ -146,9 +146,9 @@ a:hover
 	float: left;
 	width: 700px;
 	height: 300px;
-	padding-top: 50px;
+	padding-top: 40px;
 	padding-left: 25px;
-	line-height: 1.5;
+	line-height: 1.65;
 }
 
 
