@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<title>To jest film!</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Wybrane filmy według Jakuba Prusickiego"/>
+	<meta name="keywords" content="filmy,film,komedia,aktorzy,reżyseria,dramat,lektor"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1"/>
+	<link rel="stylesheet" href="famous-people.css" type="text/css"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="container">
+		
+		<div class="logo">
+			<h2>Top 7 filmów ,które musisz obejrzeć.</h2>
+		</div>
+
+
+		<div class="menu">
+			<ol> 
+				<li> <a href="index.html"> Strona główna </a></li>
+				<li> <a href="#"> Dla kinomaniaków </a>
+					<ul>
+						<li><a href="#"> Koszty </a> </li>
+						<li><a href="famous-people.html"> Znani aktorzy </a> </li>
+						<li><a href="#"> Ciekawostki </a> </li>
+					</ul>
+					</li>
+				<li> <a href="#"> Dodaj propozycję </a></li>
+				<li> <a href="#"> O mnie </a>
+					<ul>
+						<li><a href="#"> Kim jestem? </a> </li>
+						<li><a href="#"> Co oferuję? </a> </li>
+						<li><a href="#"> CV </a> </li>
+						<li><a href="#"> Social Media </a> </li>
+					</ul>
+					</li>
+				<li> <a href="#"> Kontakt </a></li>
+				
+			</ol>
+		</div>
+
+		<!---navbar on teh left side-->
+		<div class="nav">
+		</br></br>
+			<div class="optionL"> Strona główna    </div> 
+			<div class="optionL"> Filmy w liczbach </div> 
+			<div class="optionL"> Dodaj propozycję </div> 
+			<div class="optionL">     O mnie       </div> 
+			<div class="optionL">     Kontakt      </div>       	
+		</div>
+
+		
+		<div class="content">
+			<div class="actor">
+				<div class="photo">
+					<div class="photo-part">
+						<img src="images/Leonardo.jpg" weidth="150" height="300"> 
+					</div>
+					<div class="name-photo"> Leonardo DiCaprio</div>
+				</div>
+				
+				<div class="description">
+					Przełomem w jego karierze była 
+					rola upośledzonego chłopca w filmie Co gryzie Gilberta Grape’a, za którą został nominowany do Oscara jako
+					najlepszy aktor drugoplanowy.W 1997 roku na festiwalu filmowym w Berlinie otrzymał
+					Srebrnego Niedźwiedzia dla najlepszego aktora za rolę w filmie Romeo i Julia.
+					Wielkim sukcesem okazał się jeden z najbardziej nagradzanych filmów w historii kina Titanic (1997)
+					wyreżyserowany przez Jamesa Camerona, który zdobył jedenaście Oscarów.DiCaprio zagrał w nim rolę 
+					Jacka Dawsona u boku brytyjskiej aktorki Kate Winslet, z którą aktor nawiązał długoletnią przyjaźń.
+					
+				</div>
+			</div>
+			<div class="actor">
+				<div class="photo">
+					<div class="photo-part">
+						<img src="images/Joseph-Gordon-Levitt.jpg" weidth="150" height="300"> 
+					</div>
+					<div class="name-photo"> Joseph Gordon-Levitt</div>
+				</div>
+				
+				<div class="description">
+					Na kinowym ekranie wystąpił po raz pierwszy w roli studenta w komedii familijnej Beethoven (1992) 
+					oraz dramacie biograficznym Roberta Redforda Rzeka życia (A River Runs Through It, 1992) u boku Brada
+					Pitta, Craiga Sheffera i Toma Skerritta. Za postać Rogera Bommana w komedio-dramacie familijnym 
+					fantasy Anioły na boisku (Angels in the Outfield, 1994) zdobył nominację do nagrody Saturna. Jego 
+					kreacja Tommy’ego Solomona w sitcomie sci-fi NBC Trzecia planeta od słońca (3rd Rock from the Sun, 
+					1996–2001) została uhonorowana dwukrotnie hollywoodzką nagrodą YoungStar.					
+				</div>
+			</div>
+			<div class="actor">
+				<div class="photo">
+					<div class="photo-part">
+						<img src="images/Elliot-Page1.jpg" weidth="150" height="300"> 
+					</div>
+					<div class="name-photo"> Joseph Gordon-Levitt</div>
+				</div>
+				
+				<div class="description">
+					Page przyszedł na świat 21 lutego 1987 roku w Halifax. Po urodzeniu przypisano mu płeć żeńską, 
+					wtedy znany był jako Ellen Page.Uczęszczał do Halifax Grammar School, a także przez 
+					pewien czas uczył się w Queen Elizabeth High School. Po ukończeniu Shambhala School w 2005 roku
+					Page spędził dwa lata w Toronto, ucząc się w Interact Program w Vaughan Road Academy, wraz z bliskim
+					przyjacielem i kanadyjskim aktorem Markiem Rendallem.Otrzymał nagrody Genie i ACTRA Maritimes Award 
+					oraz był nominowany do Oscara za pierwszoplanową rolę w filmie Juno.
+				</div>
+			</div>
+		</div>
+
+		
+		
+		<div class="ad">
+			<img src="images/ad.jpg"  weidth="180" height="885"></br>
+			<img src="images/ad.jpg"  weidth="180" height="885"></br>
+		</div>
+
+
+		<div class="footer">
+			Najlepsze TOP 7! &copy; Wszelkie prawa zastrzeżone
+		</div>
+
+
+	</div>
+	<script src="jquery-3.5.1.min.js"></script> 
+	
+	<script>
+
+	$(document).ready(function() {
+	var NavY = $('.menu').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.menu').addClass('sticky');
+	} else {
+		$('.menu').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script>
+
+</body>
+		
+</html>
